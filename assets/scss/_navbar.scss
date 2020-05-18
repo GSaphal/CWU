@@ -1,0 +1,20 @@
+header {
+  .bg-light {
+    background-color: $theme_color !important;
+  }
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: $menu_font;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    &:hover {
+      color: $secondary_color;
+    }
+  }
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: $secondary_color;
+    font-weight: bold;
+  }
+}

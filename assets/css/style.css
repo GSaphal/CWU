@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/*Font Size*/
+/*Font Weight*/
+header .bg-light {
+  background-color: #4b0d7f !important;
+}
+
+header .navbar-light .navbar-brand,
+header .navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+header .navbar-light .navbar-brand:hover,
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #ee82ee;
+}
+
+header .navbar-light .navbar-nav .active > .nav-link {
+  color: #ee82ee;
+  font-weight: bold;
+}
+
+.banner {
+  min-height: 80vh;
+  background: url("../img/banner.jpg") center no-repeat;
+  position: relative;
+}
+
+.banner .banner-description {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  position: absolute;
+  width: auto;
+  bottom: 20%;
+}
+
+.banner .banner-description h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.banner .banner-description p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.banner .banner-description .btn-banner {
+  background-color: #ee82ee;
+  border-color: #ee82ee;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.banner .banner-description .btn-banner:hover {
+  background-color: white;
+  border-color: white;
+  color: #ee82ee;
+  font-weight: bold;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.introduction {
+  min-height: 300px;
+}
+
+.introduction h5 {
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 32px;
+  position: relative;
+  font-weight: 400;
+}
+
+.introduction p {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.introduction .btn-intro {
+  background-color: #ee82ee;
+  border-color: #ee82ee;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.introduction .btn-intro1 {
+  background-color: white;
+  font-weight: 400;
+  border-color: #ee82ee;
+  border-radius: 20px;
+  color: #4b0d7f;
+  font-size: 16px;
+}
+
+.services {
+  min-height: 500px;
+  margin-top: 100px;
+}
+
+.services h5 {
+  margin-top: 100px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.services .services-desc {
+  font-size: 18px;
+}
+
+.services button {
+  background-color: #4b0d7f;
+  border-color: #4b0d7f;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.services button:hover {
+  background-color: white;
+  color: #4b0d7f;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  border-color: #4b0d7f;
+}
+
+.services .services-col .icon1 {
+  color: #4b0d7f;
+}
+
+.services .services-col .icon2 {
+  color: #ee82ee;
+}
+
+.services .services-col h6 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.services .services-col p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+body {
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */

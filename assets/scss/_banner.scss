@@ -1,0 +1,38 @@
+.banner {
+  min-height: 80vh;
+  background: url("../img/banner.jpg") center no-repeat;
+  position: relative;
+  .banner-description {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    position: absolute;
+    width: auto;
+    bottom: 20%;
+    h1 {
+      font-weight: $main_weight;
+      font-size: 3em;
+    }
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: $secondary_weight;
+    }
+    .btn-banner {
+      background-color: $secondary_color;
+      border-color: $secondary_color;
+      border-radius: 20px;
+      font-weight: $main_weight;
+      font-size: $button_banner;
+      &:hover {
+        background-color: white;
+        border-color: white;
+        color: $secondary_color;
+        font-weight: bold;
+
+        transition: 0.2s all;
+      }
+    }
+  }
+}
