@@ -241,6 +241,38 @@ header .navbar-light .navbar-nav .active > .nav-link {
   transition: 0.2s all;
 }
 
+.pagetop {
+  height: 330px;
+  background: url("../img/banner.jpg") no-repeat fixed;
+  position: relative;
+}
+
+.pagetop .pagetop-inner {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 70px;
+  width: 20%;
+  background-color: #4b0d7f;
+}
+
+.pagetop .pagetop-inner h4 {
+  text-align: center;
+}
+
+.pagetop .pagetop-inner h4 a {
+  color: white;
+  font-size: 20px;
+}
+
+.services-page {
+  min-height: 600px;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   padding: 0px;
   font-family: "Lato", sans-serif;

@@ -6,6 +6,11 @@
 @import "../scss/services";
 @import "../scss/overlay";
 @import "../scss/description";
+@import "../scss/pagetop";
+@import "../scss/services_page";
+a {
+  text-decoration: none;
+}
 body {
   padding: 0px;
   font-family: "Lato", sans-serif;

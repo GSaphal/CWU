@@ -1,0 +1,21 @@
+.pagetop {
+  height: 330px;
+  background: url("../img/banner.jpg") no-repeat fixed;
+  position: relative;
+  .pagetop-inner {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 70px;
+    width: 20%;
+    background-color: $theme_color;
+
+    h4 {
+      text-align: center;
+      a {
+        color: white;
+        font-size: 20px;
+      }
+    }
+  }
+}
