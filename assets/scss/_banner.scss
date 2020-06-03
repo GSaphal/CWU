@@ -1,38 +1,35 @@
 .banner {
-  min-height: 80vh;
-  background: url("../img/banner.jpg") center no-repeat;
-  position: relative;
-  .banner-description {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    position: absolute;
-    width: auto;
-    left: 18%;
-    bottom: 20%;
-    h1 {
-      font-weight: $main_weight;
-      font-size: 3em;
+  min-height: 55vh;
+  background: url("../img/desc-3.jpg") center no-repeat;
+  .banner-overlay {
+    min-height: 55vh;
+    background: rgba(0, 0, 0, 0.5);
+    h2 {
+      line-height: 48px;
+      font-size: 36px;
+      padding-top: 130px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: white;
+      span {
+        font-family: "Satisfy", cursive;
+        text-transform: none;
+      }
     }
     p {
+      color: white;
+      font-size: 16px;
+      padding-top: 10px;
+    }
+    button {
+      background: $primary_color;
+      margin-top: 30px;
+      padding: 15px 20px;
       font-weight: 400;
       font-size: 20px;
-      line-height: 28px;
-      font-weight: $secondary_weight;
-    }
-    .btn-banner {
-      background-color: $secondary_color;
-      border-color: $secondary_color;
-      border-radius: 20px;
-      font-weight: $main_weight;
-      font-size: $button_banner;
+      margin-bottom: 30px;
       &:hover {
-        background-color: white;
-        border-color: white;
-        color: $secondary_color;
-        font-weight: bold;
-
-        transition: 0.2s all;
+        background: none;
       }
     }
   }

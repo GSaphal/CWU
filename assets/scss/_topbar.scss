@@ -1,0 +1,33 @@
+.topbar {
+  height: 50px;
+  border-bottom: 1px solid #d7d7d7;
+  .row {
+    justify-content: space-around;
+
+    .topbar-left {
+      padding-top: 14px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      .map-icon {
+        border-left: 1px solid #d7d7d7;
+      }
+      i {
+        color: $primary_color;
+      }
+    }
+    .topbar-right {
+      font-size: 14px;
+      padding-top: 5px;
+      line-height: 14px;
+      font-weight: 400;
+      button {
+        padding: 10px;
+        border-radius: 0px;
+      }
+      a {
+        color: $gray_color;
+      }
+    }
+  }
+}

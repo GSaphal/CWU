@@ -1,45 +1,52 @@
 .services {
-  min-height: 500px;
-  color: white !important;
+  margin-top: 90px;
+  min-height: 450px;
+  font-family: "Poppins", sans-serif;
 
-  background-color: $theme_color;
-  h5 {
-    margin-top: 100px;
-    font-size: 32px;
-    font-weight: $secondary_weight;
-  }
-  .services-desc {
-    font-size: 18px;
-  }
-  button {
-    background-color: orange;
-    border-color: goldenrod;
-    margin-top: 20px;
-    padding: 10px 15px;
-    border-radius: 20px;
-    &:hover {
-      background-color: white;
-      color: $theme_color;
-      transition: 0.2s all;
-      border-color: $theme_color;
+  .container {
+    h2 {
+      padding-top: 50px;
+      font-weight: 600;
+      line-height: 43px;
+      padding-bottom: 8px;
     }
-  }
-  .services-col {
-    .icon1 {
-      color: goldenrod;
+    .line {
+      height: 6px;
+      width: 8%;
+      margin: auto;
+      background-color: $primary_color;
     }
-    .icon2 {
-      color: pink;
+    .card-row {
+      margin-top: 50px;
     }
-    h6 {
-      font-size: 20px;
-      line-height: 26px;
-      font-weight: $secondary_weight;
+    i {
+      color: $primary_color;
     }
-    p {
-      font-size: 18px;
-      line-height: 20px;
-      font-weight: $secondary_weight;
+    .card {
+      .card-body {
+        .card-img-top {
+          height: 250px;
+        }
+        .card-text {
+          padding-bottom: 20px;
+        }
+        .card-title {
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .btn-services {
+      background: $primary_color;
+      margin-top: 30px;
+      padding: 10px 15px;
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 30px;
+      &:hover {
+        background: none;
+      }
     }
   }
 }

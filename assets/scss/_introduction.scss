@@ -1,0 +1,40 @@
+.introduction {
+  font-family: "Poppins", sans-serif;
+
+  h2 {
+    line-height: 43px;
+    font-size: 36px;
+    margin-top: 50px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  button {
+    background: $primary_color;
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    &:hover {
+      color: $primary_color;
+      background: none;
+    }
+  }
+  .btn-introduction {
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    &:hover {
+      border-color: $primary_color;
+      transition: 0.4s all;
+    }
+  }
+}

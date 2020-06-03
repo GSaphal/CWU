@@ -1,20 +1,22 @@
 header {
   .bg-light {
-    background-color: $theme_color !important;
+    background-color: white !important;
   }
-  .navbar-light .navbar-brand,
+
   .navbar-light .navbar-nav .nav-link {
-    color: white;
-    font-size: $menu_font;
-    padding: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
+    line-height: 16px;
+    padding: 5px 15px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
     &:hover {
-      color: $secondary_color;
+      color: $primary_color;
     }
   }
-  .navbar-light .navbar-nav .active > .nav-link {
-    color: $secondary_color;
-    font-weight: bold;
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: $primary_color;
   }
 }
