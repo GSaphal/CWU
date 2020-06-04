@@ -1,0 +1,66 @@
+.single-service {
+  min-height: 600px;
+  font-family: "Poppins", sans-serif;
+
+  h2 {
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 600;
+    line-height: 43px;
+  }
+  .line {
+    height: 6px;
+    width: 15%;
+    border-radius: 5px;
+    background-color: $primary_color;
+  }
+  .main-card {
+    margin-top: 30px;
+    border-color: #d7d7d7;
+
+    .list-group {
+      border: none;
+      .list-group-item {
+        border: none;
+        border-bottom: 1px solid #d7d7d7;
+        i {
+          float: right;
+        }
+      }
+    }
+  }
+
+  .single-button {
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    &:hover {
+      border-color: $primary_color;
+      transition: 0.4s all;
+    }
+  }
+  .single-col {
+    .single-image img {
+      width: 100%;
+      margin-top: 50px;
+    }
+    ul {
+      li {
+        padding: 10px;
+        list-style: none;
+        i {
+          color: $primary_color;
+          font-size: 20px;
+        }
+      }
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 20px;
+    }
+  }
+}

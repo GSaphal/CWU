@@ -1,52 +1,127 @@
 .services {
-  margin-top: 90px;
   min-height: 450px;
   font-family: "Poppins", sans-serif;
+  h2 {
+    padding-top: 100px;
+    font-weight: 600;
+    line-height: 43px;
+    padding-bottom: 4px;
+  }
 
-  .container {
-    h2 {
-      padding-top: 50px;
-      font-weight: 600;
-      line-height: 43px;
-      padding-bottom: 8px;
-    }
-    .line {
-      height: 6px;
-      width: 8%;
-      margin: auto;
-      background-color: $primary_color;
-    }
-    .card-row {
-      margin-top: 50px;
-    }
-    i {
-      color: $primary_color;
-    }
-    .card {
-      .card-body {
-        .card-img-top {
-          height: 250px;
-        }
-        .card-text {
-          padding-bottom: 20px;
-        }
-        .card-title {
-          font-size: 24px;
-          font-weight: 500;
-        }
-      }
-    }
+  .line {
+    height: 6px;
+    width: 5%;
+    border-radius: 5px;
+    margin: auto;
+    background-color: $primary_color;
+  }
+  #services-slider {
+    margin-top: 80px;
+  }
+  .post-slide {
+    background: #fff;
+    margin: 20px 15px 20px;
+    border-radius: 15px;
+    padding-top: 1px;
+    box-shadow: 0px 14px 22px -9px #bbcbd8;
+  }
+  .post-slide .post-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: -12px 15px 8px 15px;
+    margin-left: -10px;
+  }
+  .post-slide .post-img img {
+    width: 100%;
+    height: auto;
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+  }
+  .post-slide:hover .post-img img {
+    transform: scale(1.1, 1.1);
+  }
 
-    .btn-services {
-      background: $primary_color;
-      margin-top: 30px;
-      padding: 10px 15px;
-      font-weight: 400;
-      font-size: 16px;
-      margin-bottom: 30px;
-      &:hover {
-        background: none;
-      }
+  .post-slide .post-content {
+    background: #fff;
+    padding: 2px 20px 40px;
+    border-radius: 15px;
+  }
+  .post-slide .post-title {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #333;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
+
+  .post-slide .post-description {
+    line-height: 24px;
+    color: #808080;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+  .post-slide .post-date {
+    color: #a9a9a9;
+    font-size: 14px;
+  }
+  .post-slide .post-date i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #cfdace;
+  }
+  .post-slide .read-more {
+    padding: 10px 15px;
+    font-size: 16px;
+    background: $primary_color;
+    color: #ffffff;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+  .post-slide .read-more:hover {
+    background: none;
+    color: $primary_color;
+    border: 1px solid $primary_color;
+    text-decoration: none;
+  }
+  .owl-controls .owl-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .owl-controls .owl-buttons .owl-prev {
+    background: $primary_color;
+    position: absolute;
+    top: -13%;
+    left: 15px;
+    padding: 0 18px 0 15px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+  }
+  .owl-controls .owl-buttons .owl-next {
+    background: $primary_color;
+    position: absolute;
+    top: -13%;
+    right: 15px;
+    padding: 0 15px 0 18px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+  }
+  .owl-controls .owl-buttons .owl-prev:after,
+  .owl-controls .owl-buttons .owl-next:after {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: white;
+    font-size: 30px;
+  }
+  .owl-controls .owl-buttons .owl-next:after {
+    content: "\f105";
+  }
+  @media only screen and (max-width: 1280px) {
+    .post-slide .post-content {
+      padding: 0px 15px 25px 15px;
     }
   }
 }

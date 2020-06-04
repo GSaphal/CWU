@@ -1,0 +1,60 @@
+.servicespage {
+  margin-top: 20px;
+  min-height: 450px;
+
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+
+  .container {
+    h2 {
+      padding-top: 50px;
+      font-weight: 600;
+      line-height: 43px;
+      padding-bottom: 8px;
+    }
+    .line {
+      height: 6px;
+      width: 8%;
+      margin: auto;
+      background-color: $primary_color;
+    }
+    .card-row {
+      margin-top: 50px;
+    }
+    i {
+      color: $primary_color;
+    }
+    .card {
+      border-radius: 20px;
+      .card-body {
+        .card-img-top {
+          border-radius: 20px;
+          height: 250px;
+        }
+        .card-text {
+          padding-bottom: 20px;
+        }
+        .card-title {
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .btn-services {
+      padding: 10px 15px;
+      font-size: 16px;
+      background: $primary_color;
+      color: #ffffff;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      &:hover {
+        background: none;
+        color: $primary_color;
+        border: 1px solid $primary_color;
+        text-decoration: none;
+      }
+    }
+  }
+}
